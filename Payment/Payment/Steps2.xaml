@@ -36,8 +36,7 @@
                     <Label Text="Confirm"/>
                 
                 </StackLayout>
-                
-                
+             
                 
             </StackLayout>
             <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
