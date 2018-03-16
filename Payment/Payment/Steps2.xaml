@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Payment.Steps2">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White">
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <StackLayout Orientation="Vertical">
+                    <Frame CornerRadius="15" BackgroundColor="Gray" Padding="1" HasShadow="False" WidthRequest="30" HeightRequest="35">
+                        <Frame CornerRadius="15" BackgroundColor="White" HasShadow="False"   WidthRequest="30" HeightRequest="35"/>
+                    </Frame>
+                    <StackLayout HorizontalOptions="Center">
+                        <Label Text="1" LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                </StackLayout>
+                <BoxView HeightRequest="1" WidthRequest="80" BackgroundColor="Silver" VerticalOptions="Center" />
+                <StackLayout Orientation="Vertical">
+                    <Frame CornerRadius="15" BackgroundColor="Gray" Padding="1" HasShadow="False" WidthRequest="30" HeightRequest="35">
+                        <Frame CornerRadius="15" BackgroundColor="White" HasShadow="False"   WidthRequest="30" HeightRequest="35"/>
+                    </Frame>
+                    <StackLayout HorizontalOptions="Center">
+                        <Label Text="2"/>
+                    </StackLayout>
+                </StackLayout>
+                <BoxView HeightRequest="1" WidthRequest="80" BackgroundColor="Silver" VerticalOptions="Center" />
+                
+                
+                <StackLayout>
+                <StackLayout >
+                    <Frame CornerRadius="15" BackgroundColor="Gray" Padding="1" HasShadow="False" WidthRequest="30" HeightRequest="35">
+                        <Frame CornerRadius="15" BackgroundColor="White" HasShadow="False"  WidthRequest="30" HeightRequest="35"/>
+                    </Frame> 
+                </StackLayout>
+                
+                    <Label Text="Confirm"/>
+                
+                </StackLayout>
+                
+                
+                
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+                <Label Text="Please Enter Shipping address" FontSize="Small" />
+                <Label Text="Receiver Name" FontSize="Micro" TextColor="Gray"/>
+                <Entry  FontSize="Medium" />
+            </StackLayout>
+            <StackLayout >
+                <BoxView HeightRequest="0.5" WidthRequest="80" BackgroundColor="Silver" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+                <Label Text="Shipping Address" FontSize="Small" TextColor="Gray"/>
+                <Entry FontSize="Medium"/>
+            </StackLayout>
+            <StackLayout >
+                <BoxView HeightRequest="0.5" WidthRequest="80" BackgroundColor="Silver" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+               <Label Text="City" FontSize="Small" TextColor="Gray"/>
+                <Entry  FontSize="Medium" />
+            </StackLayout>
+            <StackLayout >
+                <BoxView HeightRequest="0.5" WidthRequest="80" BackgroundColor="Silver" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+               <Label Text="House Number" FontSize="Small" TextColor="Gray"/>
+                <Entry  FontSize="Medium"/>
+            </StackLayout>
+            <StackLayout >
+                <BoxView HeightRequest="0.5" WidthRequest="80" BackgroundColor="Silver" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+               <Label Text="Street Name" FontSize="Small" TextColor="Gray"/>
+                <Entry  FontSize="Medium"/>
+            </StackLayout>
+            <StackLayout >
+                <BoxView HeightRequest="0.5" WidthRequest="80" BackgroundColor="Silver" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+                <Button BackgroundColor="Gold" WidthRequest="150" HeightRequest="60" Text="Back" TextColor="White"/>
+                <Button BackgroundColor="#443E43" WidthRequest="150" HeightRequest="60" Text="Next" TextColor="White"/>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#443E43" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" Orientation="Horizontal" WidthRequest="400" HeightRequest="50">
+
+                <Image Source="home.png" WidthRequest="17" HeightRequest="17" HorizontalOptions="CenterAndExpand"/>
+                <Image Source="Search.png" WidthRequest="15" HeightRequest="15" HorizontalOptions="CenterAndExpand"/>
+                <Image Source="Menu.png" WidthRequest="15" HeightRequest="15" HorizontalOptions="CenterAndExpand"/>
+                <Image Source="Shop.png" WidthRequest="15" HeightRequest="15" HorizontalOptions="CenterAndExpand"/>
+                <Image Source="Account.png" WidthRequest="15" HeightRequest="15" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
